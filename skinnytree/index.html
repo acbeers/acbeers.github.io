@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skinny Tree</title>
+
+    <link rel="stylesheet" type="text/css" href="tree.css">
+    <link rel="stylesheet" type="text/css" href="neworg.css">
+
+    <!-- This is for the color encoding -->
+    <style id="style1" type="text/css">
+    </style>
+
+    <!-- jQuery -->
+    <script src="./ext/jquery-3.2.1.min.js"></script>
+    <script src="./ext/typeahead.jquery.js"></script>
+
+    <!-- Tableau Extensions API Library  -->
+    <script src="./ext/tableau-extensions-1.latest.js"></script>
+
+    <!-- D3 and crossfilter -->
+    <script src="./ext/crossfilter.min.js"></script>
+    <script src="./ext/d3.v3.min.js"></script>
+
+    <!-- Your JavaScript code that uses the Extensions API goes here -->
+    <script src="./colormap.js"></script>
+    <script src="./SkinnyTreeLayout.js"></script>
+    <script src="./extension.bundle.js"></script>
+    </head>
+    <body>
+      <div id="container">
+      </div>
+
+    <script type="text/javascript">
+      client.MakePage()
+    </script>
+    </body>
+</html>
